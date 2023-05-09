@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 5px solid black;">
+        <h1 style="text-align: center;">Portal web aprenderaprogramar.com</h1>
+        <h2>Didactica y divulgacion de la programacion</h2>
+    </div>
+    <div style="border: 1px dashed rebeccapurple">
+        Menu<a id="arriba"></a>
+        <hr style="height: 3px; background-color: rgb(53, 8, 8); border: 1px dashed yellow; width: 85%;">
+        <ul style="list-style-type: disc;">
+            <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=featured&Itemid=46" target="_blank"><li style="margin-left: 25px;">Inicio</li></a>
+            <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=category&layout=blog&id=87&Itemid=26" target="_blank"><li style="margin-left: 25px;">Libros de programacion</li></a>
+            <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=57&Itemid=86" target="_blank"><li style="margin-left: 25px;">Cursos de programacion</li></a>
+            <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=category&layout=blog&id=90&Itemid=48" target="_blank"><li style="margin-left: 25px;">Humor informatico</li></a>
+        </ul>
+        <br/><br/>
+        <p>Aprender a programar es un objetivo que se plantea mucha gente y que no todos alcanzan</p>
+        <p>Hay que tener claro que <span style="color: blue; font-style: italic;">aprender programacion</span> no es tarea de un dia ni de una semana: aprender
+    programacion requiere al menos varios meses y, si hablamos de programacion a nivel profesional, varios anos. No queremos con esto desanimar a nadie: en un plazo
+    de unos dias podemos estar haciendo nuestros primeros programas</p>
+        <p>Puedes seguir uno de nuestros <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=57&Itemid=86" target="_blank">cursos</a> entre los varios disponibles.
+    Cuando haya que utilizar un editor de textos recomendamos el uso de Visual Studio Code, aunque son validas otras alternativas</p>
+        <img src="./Imagen1.png" style="width: 750px; height: 300px;">
+        <p style="font-size: 25px;">Si quieres contactar con nosotros envianos este formulario relleno:</p>
+        <form action="http://aprenderaprogramar.php" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" placeholder="Ponga aqui su nombre"/><br/><br/>
+            <label for="apellidos">Apellidos:</label>
+            <input id="apellidos" name="apellidos" placeholder="Ponga aqui sus apelldos"/><br/><br/>
+            <label for="direccion">Direccion:</label><br/>
+            <textarea id="direccion" name="direccion" placeholder="Anada su direccion incluyendo codigo postal" rows="7" cols="80"></textarea><br/><br/>
+            <label for="email">Correo electronico:</label>
+            <input id="email" name="email" type="email" placeholder="Eg. xxxxx@gmail.com"/><br/><br/>
+            Mensaje:<textarea name="mensaje" rows="10" cols="90"></textarea><br/><br/>
+            Incluya una foto de perfil:<input type="file" name="Image"/><br/><br/>
+            <input type="submit" value="Enviar formulario"/> <input type="reset" value="Reiniciar formulario"/>
+        </form>
+    </div>
+    <br/><br/>
+    <div>
+        <a href="#arriba">Volver al menu</a><br/>
+        <img src="./Icon1.png" style="width: 200px;">
+        <footer>&copy; Copyright 2006-2038 aprenderaprogramar.com</footer>
+    </div>
+</body>
+</html>
